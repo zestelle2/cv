@@ -1,0 +1,96 @@
+
+*{
+box-sizing: inherit; /* Permet de garder la largeur et la hauteur sans que les padding s'ajoute à la valeur  box-sizing:border-box;*/ 
+}
+
+/* MENUE NAVIGATION */
+.header{
+  border: 5px solid red;
+  width: 100%;
+}
+
+.menuNavigation ul{
+  justify-content: space-around; 
+  display: flex;
+}
+
+.menuNavigation 
+{ 
+  border: 5px solid violet;
+  padding:20px;
+}
+
+.menuNavigation  a:link, .menuNavigation  a:visited 
+{
+  
+  
+}
+
+/* BLOCK PRINCIPAL */
+.blockPrincipal{
+  border: 5px solid sienna;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+}
+.barreNoire{
+  background-color: black;
+  flex: 1 -90%;
+
+}
+
+/* ESTELLE INFORMATION */
+.estelleInformation{
+  border: 5px solid yellow;
+  flex: 1;
+}
+
+#estelle {
+  border: 5px solid blue;
+  text-align: center;
+  font-weight:bold;
+}
+
+#personnage{
+  position: relative;
+  top: 65px;
+  right:-30%;
+ 
+}
+
+.estelleG{
+  position:relative;
+  bottom: 100px;
+  clear:right;
+  
+}
+
+
+/* INFORMATION (expérience, compétences, formation) */
+.information{
+  
+  display: flex;
+  border: 5px solid greenyellow;
+ 
+}
+
+#experience{
+  border: 5px solid salmon;
+  flex: 3;
+}
+
+#competences{
+  border: 5px solid salmon;
+  flex:3;
+}
+
+#formation{
+  border: 5px solid salmon;
+  flex:3;
+}
+
+  
+
+
+
+     
